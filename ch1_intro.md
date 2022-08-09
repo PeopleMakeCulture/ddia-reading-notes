@@ -12,33 +12,48 @@
 
 - It's hard to make things RSM, but there are some patterns, which this book will discuss
 
-- *reliable* 
+- **Reliable**: _Faults_ happen due to _hardware_ (hard disk crash, power blackouts, etc can be addressed w/ redundancy), _software_, and _human_ errors. Good data systems apply **fault tolerance techniques** to hide these from the end user. 
 
-- *scalable*
+- **Scalable**: Good systems maintain performance as load increases
 
-- *maintainable*
+- **Maintainable**
 
-### Outline
-
-### Thinking Data Systems
+## But Wait, There's More!
 
 ### Reliability (pp6-11)
-	- Hardware
-	- Software
-	- Humans
-	- How important is this anyways??
+- software bugs and human errors are best mitigated w/ good design && testing??
 
 ### Scalability (pp10-18)
-	- Load
-	- Performance
-	- Coping with Load
+- _load parameters_ quantify system load
+- _throughput_, eg num_records_processed_per_second, is a common load parameter for batch processing
+- _response time_, as measured in percentiles, may be prefered for web apps
+- _scaling up vs scaling out_ a system can either move to a more powerful machine or spread load accross more machines (p17)
+- _elastic_ systems dynamically size up or down depending on load (17)
 
 ### Maintainability (pp189-22)
-	- Operability
-	- Simplicity 
-	- Evolvability 
 
-#### Further reading (???)
+
+### Further reading 
 
 Kreps, Getting Real About Distributed System Reliability: https://blog.empathybox.com/post/19574936361/getting-real-about-distributed-system-reliability (Coda: DSOps is hard, but Distributed Systems as a Service DSaaS (eg Kafka) means most developers don't really need to think about it)
 
+
+8/9 Agenda (50 min)
+
+I(nform)
+D(iscuss)
+DE(cide)
+A(ct)
+
+(D) Group intros (10 min)
+	- name/pronouns/location/fav ice cream flavor/one thing you'd like to get out of this group
+	Discuss How to structure the reading group 
+		- How much do we want to commit to reading each week?
+		- Are we going for depth? Breadth? Something else?
+		- Do we want to share war stories from prev jobs? Thoughts on how concepts might apply to future projects?
+		- Do we want to engage w/ the 
+		- Do we want a reading group artifact? (Eg collab google doc, github repo, something with diagrams/drawings)   
+
+	My personal reading style:
+		- skim outline, read the summary, dig into stuff I find interesting and/or skim the extra sturf 
+	
