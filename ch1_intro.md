@@ -16,7 +16,7 @@
 
 - **Scalable**: Good systems maintain performance as load increases
 
-- **Maintainable**
+- **Maintainable**: Good systems make life easier for future engineers
 
 ## But Wait, There's More!
 
