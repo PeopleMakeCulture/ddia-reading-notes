@@ -4,7 +4,7 @@
 
 #### Thesis
 
- *Applications use data systmes to store, stash, search, and process data (dbs, caches, search indexes, stream processing, and batch processing).These underlying data systems strive to be reliable, scalable, and maintainable*
+ *Applications use data systems to store, stash, search, and process data (dbs, caches, search indexes, stream processing, and batch processing).These underlying data systems strive to be reliable, scalable, and maintainable*
 
 #### Summary
 
@@ -36,3 +36,5 @@
 ### Further reading 
 
 Kreps, Getting Real About Distributed System Reliability: https://blog.empathybox.com/post/19574936361/getting-real-about-distributed-system-reliability (Coda: DSOps is hard, but Distributed Systems as a Service DSaaS (eg Kafka) means most developers don't really need to think about it)
+
+

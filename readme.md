@@ -1,11 +1,32 @@
 
 8/9 Agenda (50 min)
 MC: Jing
+Scribe: ???
 
 I(nform)
 D(iscuss)
 DE(cide)
 A(ct)
+
+
+FOUNDATIONS OF DATA SYSTEMS
+1 Reliable, Scalable, Maintainable Systems
+2 Models / Query-ing
+3 Storage Retrival
+4 Encoding / Dataflow
+
+DISTRIBUTED
+
+5 Replication
+6 Partitioning
+7 Transactions
+8 "Trouble with Distributed Systems"
+9 Consistency and Consensus
+
+DERIVED DATA
+10 Batch Processing
+11 Stream Processing
+12 "Future" of Data Systems
 
 (D) Group intros (10 min)
 	- name/pronouns/location/fav ice cream flavor/one thing you'd like to get out of this group
@@ -26,4 +47,20 @@ A(ct)
 
 	My personal reading style:
 		- skim outline, read the summary, dig into stuff I find interesting and/or skim the extra sturf 
-	
+
+My notes:
+People's goals?
+- Man'uel - implement some of the structures??
+- Mohamed - Cairo
+- Tyler - heard of the book 
+- Ben M - Brooklyn (only worked on small DBs, wantsmore context for real world apps)
+- Ben V - Chicago - Web dev
+- Julian - Dartmouth - web apps; design trade-offs; examples!
+- Chhavi - book on shelf for 5 years...
+
+- Russell - implementing stuff
+- Max - web apps
+- Vivian - Snowflake; analytics
+- Michael - Job interviews "design a scalable system"
+
+- embed presentations, google draw, png
